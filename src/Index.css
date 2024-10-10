@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    box-shadow: 0 5px 20px 1px #ffffff25;
+}
+
+.box {
+    height: 350px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.search-input {
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: #e7e7e7;
+}
+
+.search-input:focus {
+    border: 1px solid #fff;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.search-btn {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #0f0f0f;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    /* background-color: #0f0f0f; */
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 8px 1px #ffffffa1;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-btn:active {
+    color: #0f0f0f;
+    box-shadow: none;
+    background-color: #fff;
+}
